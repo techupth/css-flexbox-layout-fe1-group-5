@@ -1,1 +1,62 @@
 /* Start coding here */
+.choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    gap: 50px;
+    background-color: #F7CAC9;
+    margin: 0;
+    padding: 20px 20px 100px 50px;
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100px;
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.dog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100px;
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.fish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100px;
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+hr {
+    border: 0.1px solid grey;
+    width: 150px;
+}
+
+.heading {
+    color: white;
+}
+
+button {
+    background-color: yellow;
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+    border: none;
+}
